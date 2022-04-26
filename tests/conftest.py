@@ -14,11 +14,12 @@ def application():
     application = create_app()
     application.config.update(
         #will save to the database file you can view
-        ENV='development',
+        FLASK_ENV='development',
         #will save to memory / you can't see but runs fast
         #ENV='testing',
 
     )
+    # os.environ["FLASK_ENV"] ='testing'
     with application.app_context():
         db.create_all()
         yield application

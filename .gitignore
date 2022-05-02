@@ -4,7 +4,7 @@
 .pytest_cache
 .ash_history
 __pycache__
-.coverage
+.coverageq
 .bash_history
 .env
 #logs

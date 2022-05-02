@@ -19,6 +19,7 @@ def application():
     os.environ['FLASK_ENV'] = 'testing'
 
     application = create_app()
+    application.config['WTF_CSRF_ENABLED'] = False
 
     with application.app_context():
         db.create_all()
@@ -31,7 +32,7 @@ def application():
 def add_user(application):
     with application.app_context():
         #new record
-        user = User('keith@webizly.com', 'testtest')
+        user = User('test@njit.edu', 'testtest')
         db.session.add(user)
         db.session.commit()
 

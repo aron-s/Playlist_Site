@@ -111,7 +111,7 @@ LOGGING_CONFIG = {
             'propagate': True
         },
         '__main__': {  # if __name__ == '__main__'
-            'handlers': ['default','file.handler'],
+            'handlers': ['default','file.handler.request'],
             'level': 'DEBUG',
             'propagate': True
         },

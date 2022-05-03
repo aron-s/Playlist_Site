@@ -176,3 +176,19 @@
 2022-05-02 05:29:56,093 [INFO] werkzeug: 172.21.0.1 - - [02/May/2022 05:29:56] "[32mPOST /register HTTP/1.1[0m" 302 -
 2022-05-02 05:29:56,135 [INFO] werkzeug: 172.21.0.1 - - [02/May/2022 05:29:56] "GET /login HTTP/1.1" 200 -
 2022-05-02 05:30:19,919 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/login_and_registration_test.py', reloading
+2022-05-03 05:18:32,791 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:18:32] "GET / HTTP/1.1" 200 -
+2022-05-03 05:18:33,944 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:18:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-03 05:18:36,363 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:18:36] "GET /welcome HTTP/1.1" 200 -
+2022-05-03 05:18:37,258 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:18:37] "GET /locations/map HTTP/1.1" 200 -
+2022-05-03 05:18:37,952 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:18:37] "GET /about HTTP/1.1" 200 -
+2022-05-03 05:19:14,752 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:19:14] "GET /welcome HTTP/1.1" 200 -
+2022-05-03 05:19:50,745 [INFO] werkzeug:  * Detected change in '/home/myuser/app/simple_pages/__init__.py', reloading
+2022-05-03 05:20:02,963 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:20:02] "GET /locations/map HTTP/1.1" 200 -
+2022-05-03 05:20:03,035 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:20:03] "[32mGET /api/locations HTTP/1.1[0m" 308 -
+2022-05-03 05:20:03,145 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:20:03] "GET /api/locations/ HTTP/1.1" 200 -
+2022-05-03 05:20:04,291 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:20:04] "GET /about HTTP/1.1" 200 -
+2022-05-03 05:20:05,329 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:20:05] "GET /welcome HTTP/1.1" 200 -
+2022-05-03 05:20:06,493 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:20:06] "GET / HTTP/1.1" 200 -
+2022-05-03 05:20:30,810 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:20:30] "GET /login HTTP/1.1" 200 -
+2022-05-03 05:20:34,341 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:20:34] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-03 05:20:34,490 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:20:34] "GET /dashboard HTTP/1.1" 200 -

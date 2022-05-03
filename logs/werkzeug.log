@@ -192,3 +192,47 @@
 2022-05-03 05:20:30,810 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:20:30] "GET /login HTTP/1.1" 200 -
 2022-05-03 05:20:34,341 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:20:34] "[32mPOST /login HTTP/1.1[0m" 302 -
 2022-05-03 05:20:34,490 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 05:20:34] "GET /dashboard HTTP/1.1" 200 -
+2022-05-03 21:36:17,684 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:36:17] "GET / HTTP/1.1" 200 -
+2022-05-03 21:36:18,190 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:36:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2022-05-03 21:36:26,616 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:36:26] "GET / HTTP/1.1" 200 -
+2022-05-03 21:36:36,250 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:36:36] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-03 21:36:36,309 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:36:36] "GET /dashboard HTTP/1.1" 200 -
+2022-05-03 21:36:40,819 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:36:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-03 21:36:40,855 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:36:40] "GET /login HTTP/1.1" 200 -
+2022-05-03 21:36:42,871 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:36:42] "GET /login HTTP/1.1" 200 -
+2022-05-03 21:36:45,441 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:36:45] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2022-05-03 21:36:45,462 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:36:45] "GET /login?next=%2Fdashboard HTTP/1.1" 200 -
+2022-05-03 21:37:10,994 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/login_and_registration_test.py', reloading
+2022-05-03 21:38:20,289 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:38:20] "GET /login?next=%2Fdashboard HTTP/1.1" 200 -
+2022-05-03 21:38:22,261 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:38:22] "GET /login HTTP/1.1" 200 -
+2022-05-03 21:38:26,548 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:38:26] "[32mGET /dashboard HTTP/1.1[0m" 302 -
+2022-05-03 21:38:26,569 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:38:26] "GET /login?next=%2Fdashboard HTTP/1.1" 200 -
+2022-05-03 21:38:38,632 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/login_and_registration_test.py', reloading
+2022-05-03 21:46:15,281 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:46:15] "[32mPOST /login?next=%2Fdashboard HTTP/1.1[0m" 302 -
+2022-05-03 21:46:15,534 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:46:15] "GET /dashboard HTTP/1.1" 200 -
+2022-05-03 21:46:26,744 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/login_and_registration_test.py', reloading
+2022-05-03 21:47:12,460 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:47:12] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-03 21:47:12,702 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:47:12] "GET /login HTTP/1.1" 200 -
+2022-05-03 21:47:13,895 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:47:13] "GET /register HTTP/1.1" 200 -
+2022-05-03 21:47:33,460 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:47:33] "[32mPOST /register HTTP/1.1[0m" 302 -
+2022-05-03 21:47:33,477 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:47:33] "GET /login HTTP/1.1" 200 -
+2022-05-03 21:48:19,989 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/login_and_registration_test.py', reloading
+2022-05-03 21:48:57,670 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:48:57] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-03 21:48:57,914 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:48:57] "GET /dashboard HTTP/1.1" 200 -
+2022-05-03 21:49:01,061 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:49:01] "GET /profile HTTP/1.1" 200 -
+2022-05-03 21:49:15,570 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/login_and_registration_test.py', reloading
+2022-05-03 21:49:53,811 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:49:53] "GET /dashboard HTTP/1.1" 200 -
+2022-05-03 21:49:58,198 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:49:58] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-03 21:49:58,244 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:49:58] "GET /login HTTP/1.1" 200 -
+2022-05-03 21:49:59,714 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:49:59] "[32mPOST /login HTTP/1.1[0m" 302 -
+2022-05-03 21:49:59,752 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:49:59] "GET /dashboard HTTP/1.1" 200 -
+2022-05-03 21:50:34,126 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/login_and_registration_test.py', reloading
+2022-05-03 21:51:48,069 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:51:48] "GET /profile HTTP/1.1" 200 -
+2022-05-03 21:51:57,809 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/login_and_registration_test.py', reloading
+2022-05-03 21:53:18,807 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:53:18] "GET /songs HTTP/1.1" 200 -
+2022-05-03 21:53:34,852 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:53:34] "GET /songs/upload HTTP/1.1" 200 -
+2022-05-03 21:54:05,731 [INFO] werkzeug:  * Detected change in '/home/myuser/tests/login_and_registration_test.py', reloading
+2022-05-03 21:55:15,078 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:55:15] "[32mGET /logout HTTP/1.1[0m" 302 -
+2022-05-03 21:55:15,352 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:55:15] "GET /login HTTP/1.1" 200 -
+2022-05-03 21:55:23,220 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:55:23] "[32mGET /songs/upload HTTP/1.1[0m" 302 -
+2022-05-03 21:55:23,242 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:55:23] "GET /login?next=%2Fsongs%2Fupload HTTP/1.1" 200 -

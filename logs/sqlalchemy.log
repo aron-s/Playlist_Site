@@ -55762,3 +55762,13 @@ FROM (SELECT songs.id AS songs_id, songs.title AS songs_title, songs.artist AS s
 FROM songs) AS anon_1
 2022-05-03 21:55:35,377 [INFO] sqlalchemy.engine.Engine: [cached since 0.03261s ago] ()
 2022-05-03 21:55:35,378 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-05 16:09:23,346 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-05 16:09:23,383 [INFO] sqlalchemy.engine.Engine: SELECT locations.id AS locations_id, locations.title AS locations_title, locations.longitude AS locations_longitude, locations.latitude AS locations_latitude, locations.population AS locations_population, locations.user_id AS locations_user_id 
+FROM locations
+2022-05-05 16:09:23,396 [INFO] sqlalchemy.engine.Engine: [generated in 0.01346s] ()
+2022-05-05 16:09:23,423 [INFO] sqlalchemy.engine.Engine: ROLLBACK
+2022-05-05 16:09:33,235 [INFO] sqlalchemy.engine.Engine: BEGIN (implicit)
+2022-05-05 16:09:33,236 [INFO] sqlalchemy.engine.Engine: SELECT locations.id AS locations_id, locations.title AS locations_title, locations.longitude AS locations_longitude, locations.latitude AS locations_latitude, locations.population AS locations_population, locations.user_id AS locations_user_id 
+FROM locations
+2022-05-05 16:09:33,237 [INFO] sqlalchemy.engine.Engine: [cached since 9.854s ago] ()
+2022-05-05 16:09:33,244 [INFO] sqlalchemy.engine.Engine: ROLLBACK

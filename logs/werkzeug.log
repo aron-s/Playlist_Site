@@ -236,3 +236,9 @@
 2022-05-03 21:55:15,352 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:55:15] "GET /login HTTP/1.1" 200 -
 2022-05-03 21:55:23,220 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:55:23] "[32mGET /songs/upload HTTP/1.1[0m" 302 -
 2022-05-03 21:55:23,242 [INFO] werkzeug: 172.21.0.1 - - [03/May/2022 21:55:23] "GET /login?next=%2Fsongs%2Fupload HTTP/1.1" 200 -
+2022-05-05 16:12:36,075 [INFO] werkzeug: 172.18.0.1 - - [05/May/2022 16:12:36] "GET /welcome HTTP/1.1" 200 -
+2022-05-05 16:12:39,634 [INFO] werkzeug: 172.18.0.1 - - [05/May/2022 16:12:39] "GET /about HTTP/1.1" 200 -
+2022-05-05 16:13:44,676 [INFO] werkzeug:  * Detected change in '/home/myuser/app/logging_config/__init__.py', reloading
+2022-05-05 16:17:41,087 [INFO] werkzeug: 172.18.0.1 - - [05/May/2022 16:17:41] "GET /welcome HTTP/1.1" 200 -
+2022-05-05 16:17:41,831 [INFO] werkzeug: 172.18.0.1 - - [05/May/2022 16:17:41] "GET / HTTP/1.1" 200 -
+2022-05-05 16:18:36,189 [INFO] werkzeug:  * Detected change in '/home/myuser/app/simple_pages/__init__.py', reloading

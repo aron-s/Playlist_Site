@@ -27,6 +27,6 @@ def welcome():
     except TemplateNotFound:
         abort(404)
 
-if __name__ == '__main__':
-    log = logging.getLogger("__main__")
-    log.DEBUG('method:{}, route:{}, time:{}, request address{}')
+# if __name__ == '__main__':
+#     log = logging.getLogger("__main__")
+#     log.DEBUG('method:{}, route:{}, time:{}, request address{}')
